@@ -1,0 +1,35 @@
+#Canada Learning Code
+#Women Who Code Vancouver
+#Python 2.7
+
+
+# Here is a list of many numbers
+# Use variables, for loops, and if statements to complete the following tasks
+
+numbers = [2,14,144,62,1729,44,101,210,6,12,33,550,1001,11,142,674,
+           37,45,167,764,999,3,66,174,982,112,245,501,63,91]
+
+# Task 1: count how many numbers are less than 50
+total=0
+for number in numbers:
+    if number <50:
+        total = total+1
+print(total)
+
+
+
+# Task 2: count how many numbers are greater than 500 and less than 1000
+task2 = 0
+for value in numbers:
+    if value > 500 and value < 1000:
+        task2 = task2+1
+print(task2)
+
+
+
+# Bonus: count how many numbers are odd
+numOdd = 0
+for entry in numbers:
+    if entry % 2 == 1:
+        numOdd = numOdd + 1
+print(numOdd)
