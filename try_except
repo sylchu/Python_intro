@@ -1,0 +1,24 @@
+#Coursera
+#Python for everybody
+#Python 2.7
+
+#try and except is a way to test a piece of code
+#in the example below, if the user enters a value that isn't an integer
+#or 'done' then the loop "breaks" and prints 'Invalid input' to the user
+
+num = 0
+tot=0.0
+while True :
+    sval=raw_input("Enter a number: ")
+    if sval == 'done':
+        break
+    try:
+        fval = float(sval)
+    except:
+        print('Invalid input')
+        continue
+#    print(fval)
+    num = num+1
+    tot = tot+fval
+#print('ALL DONE')
+print(tot, num, tot/num)
