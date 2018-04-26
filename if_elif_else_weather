@@ -1,0 +1,17 @@
+#python 2.7
+#asking the user questions and giving advice
+#a try/except should probably be added to this
+#or something similar to deal with incorrect user input
+
+rain=raw_input("Is it raining? Y/N\n")
+cold=raw_input("Is it cold? Y/N\n")
+if rain=="Y" and cold=="Y":
+    print("Dress warmly and bring your umbrella")
+elif rain=="Y" and cold=="N":
+    print("Bring your umbrella")
+elif rain=="N" and cold=="Y":
+    print("Grab your sweater")
+elif rain=="N" and cold=="N":
+    print("Dress normally")
+else:
+    print("What did you do?")
