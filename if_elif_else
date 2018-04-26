@@ -1,7 +1,11 @@
+#Canada Learning Code
+#Women Who Code Vancouver
+#python 2.7
+
 #getting started with if / elif / else
 #create a function called greet, address each name in the correct language
 #3 names, 3 languages
-#python 2.7
+
 
 
 def greet(lang):
