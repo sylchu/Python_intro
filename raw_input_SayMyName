@@ -1,3 +1,7 @@
+#Canada Learning Code
+#Women Who Code Vancouver
+#python 2.7
+
 #function will ask the user for a name and then greet them with the name provided
 
 def sayHello():
